@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -fopenmp -O2 -lm
 TARGET = heat_omp
-SRC = heat_omp_same_timing.c
+SRC = heat_omp.c
 
 all: $(TARGET)
 

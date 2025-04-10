@@ -9,7 +9,7 @@ make clean
 make
 
 # Directory for results
-RESULTS_DIR="results"
+RESULTS_DIR="results_serial"
 mkdir -p $RESULTS_DIR
 
 # Loop through all combinations
@@ -46,6 +46,6 @@ EOF
 done
 
 # Clean up temporary job scripts (uncomment if desired)
-# rm -f temp_job_heat_*.sh
+rm -f temp_job_heat_*.sh
 
 echo "All jobs submitted. Results will be in ${RESULTS_DIR}/"
