@@ -1,0 +1,2 @@
+/opt/gridengine/default/spool/compute-0-6/job_scripts/36162: line 14: ./heat_omp: No such file or directory
+The Execution Time = 571.275435 seconds with a matrix size of 2000x2000 and 100000 steps
