@@ -1,0 +1,10 @@
+-catch_rsh /opt/gridengine/default/spool/compute-0-3/active_jobs/39327.1/pe_hostfile
+compute-0-3
+compute-0-3
+compute-0-3
+compute-0-3
+compute-0-5
+compute-0-5
+compute-0-5
+compute-0-5
+The Execution Time = 0.084249 seconds with a matrix size of 100x100 and 1000 steps
