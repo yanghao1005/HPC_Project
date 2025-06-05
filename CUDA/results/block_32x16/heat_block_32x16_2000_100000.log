@@ -1,0 +1,20 @@
+========== CUDA HEAT EQUATION SOLVER ==========
+Grid size: 2000x2000
+Time steps: 100000
+Block size: 32x16 (512 threads)
+Output file: cuda_benchmark_results/block_32x16/heat_block_32x16_2000_100000.bmp
+===============================================
+Using GPU: NVIDIA RTX A4000
+Max threads per block: 1024
+Number of SMs: 48
+Using block size: 32x16 (512 threads per block)
+Grid configuration: 63x125 blocks
+Total threads: 4032000
+
+========== PERFORMANCE RESULTS ==========
+Execution Time: 88.9657 seconds
+Performance: 31.41 GFLOP/s
+Memory Bandwidth: 215.81 GB/s
+Grid blocks: 63x125 = 7875 total blocks
+=========================================
+The Execution Time = 88.965703 seconds with a matrix size of 2000x2000 and 100000 steps
